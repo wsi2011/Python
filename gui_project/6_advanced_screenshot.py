@@ -7,6 +7,6 @@ def screenshot():
     img = ImageGrab.grab()
     img.save('img{}.png'.format(curr_time))
 
-keyboard.add_hotkey('space',screenshot)
+keyboard.add_hotkey('space',screenshot) # space바를 누르면 screenshot기능 수행
 
 keyboard.wait('esc')
